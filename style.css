@@ -40,5 +40,5 @@ body {
     border-radius: 5000px;
     width: 100px;
     height: 100px; 
-    animation: bouncing-button 20s linear infinite alternate;
+    animation: bouncing-button 5s linear infinite alternate;
 }
