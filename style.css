@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+@keyframes bouncing-button {
+    0% {
+        background-color: brown;
+        transform: translate(-45vw,0);
+    }
+    20% {
+        background-color: blue;
+        transform: translate(-30vw,-20vw);
+    }
+    40% {
+        background-color: aqua;
+        transform: translate(0,20vw);
+    }
+    60% {
+        background-color: yellowgreen;
+        transform: translate(30vw, -20vw);
+    }
+    80% {
+        background-color: darkorange;
+        transform: translate(45vw,20vw);
+    }
+    100% {
+        background-color: teal;
+        transform: translate(-45vw, 0);
+    }
+}
+.button-dog {
+    font-size: 22px;
+    border-radius: 5000px;
+    width: 100px;
+    height: 100px; 
+    animation: bouncing-button 2s linear infinite alternate;
+}
